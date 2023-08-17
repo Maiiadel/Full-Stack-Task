@@ -1,0 +1,91 @@
+    <div class="container">
+        <div class="col">
+          <div class="card" id="list1" style="border-radius: .75rem; background-color: #eff1f2;">
+            <div class="card-body ">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex flex-row align-items-center">
+                      <input type="text" class="form-control form-control-lg" id="exampleFormControlInput1"
+                        placeholder="Add new...">
+                      <div>
+                        <button type="button" class="btn btn-primary m-3">Add</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+  
+              <hr class="my-4">
+  <!--Div for Filter dropdown -->
+              <div class="d-flex justify-content-end align-items-center mb-4 pt-2 pb-3">
+                <p class="small mb-0 me-2 text-muted">Filter</p>
+                <select class="select">
+                  <option value="1">All</option>
+                  <option value="2">Completed</option>
+                  <option value="3">Active</option>
+                  <option value="4">Has due date</option>
+                </select>
+                <!-- Sort DropDown -->
+                <p class="small mb-0 ms-4 me-2 text-muted">Sort</p>
+                <select class="select">
+                  <option value="1">Added date</option>
+                  <option value="2">Due date</option>
+                </select>
+                <a href="#!" style="color: #23af89;" data-mdb-toggle="tooltip" title="Ascending"><i
+                    class="fas fa-sort-amount-down-alt ms-2"></i></a>
+              </div>
+  <!-- Tasks List Table  -->
+  <h2  class="text-center">My Tasks:</h2>
+  <table>
+    <tr>
+    <thead>
+    <th scope="col" class="p-3"> Is Done </th>
+    <th scope="col" class="p-3">TaskID </th>
+    <th scope="col" class="p-3">Task Description </th>
+    <th scope="col" class="p-3"> Due date </th>
+</thead>
+</tr>
+        <div *ngFor="let Task of TasksList">
+              <!-- Task3  -->
+    <!-- Is Completed Checkbox -->
+    <tr class="list-group list-group-horizontal rounded-0 bg-transparent">
+        
+           
+        <td
+          class="list-group-item d-flex align-items-center ps-0 pe-3 py-1 rounded-0 border-0 bg-transparent">
+          <div class="form-check">
+            <input class="form-check-input me-0" type="checkbox" value="" id="flexCheckChecked1"
+              aria-label="..." (change)="onChange"  [checked]="Checked">
+          </div>
+          
+        </td>
+        <!-- Task ID -->
+        <td
+          class="list-group-item px-3 py-1 d-flex align-items-center flex-grow-1 border-0 bg-transparent">
+          <p class="lead fw-normal mb-0">{{Task.TaskID}}</p>
+    </td>
+   
+        <!-- Task Description -->
+        
+        <td
+          class="list-group-item px-3 py-1 d-flex align-items-center flex-grow-1 border-0 bg-transparent">
+          <p class="lead fw-normal mb-0">{{Task.TaskDescriptiion}}</p>
+</td>
+        <td class="list-group-item px-3 py-1 d-flex align-items-center border-0 bg-transparent">
+            <div
+              class="py-2 px-3 me-2 border border-warning rounded-3 d-flex align-items-center bg-light">
+              <p class="small mb-0">
+                <a href="#!" data-mdb-toggle="tooltip" title="Due on date">
+                  <i class="fas fa-hourglass-half me-2 text-warning"></i>
+                </a>
+                {{Task.DueDate}}
+              </p>
+            </div>
+        </td>
+    </tr>
+        </div>
+            </table>
+            </div>
+          </div>
+        </div>
+      </div>
+

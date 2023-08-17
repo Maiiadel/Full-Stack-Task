@@ -1,0 +1,14 @@
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\bin\Debug\net7.0\Backend.exe
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\bin\Debug\net7.0\Backend.deps.json
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\bin\Debug\net7.0\Backend.runtimeconfig.json
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\bin\Debug\net7.0\Backend.dll
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\bin\Debug\net7.0\Backend.pdb
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\obj\Debug\net7.0\Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\obj\Debug\net7.0\Backend.AssemblyInfoInputs.cache
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\obj\Debug\net7.0\Backend.AssemblyInfo.cs
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\obj\Debug\net7.0\Backend.csproj.CoreCompileInputs.cache
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\obj\Debug\net7.0\Backend.dll
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\obj\Debug\net7.0\refint\Backend.dll
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\obj\Debug\net7.0\Backend.pdb
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\obj\Debug\net7.0\Backend.genruntimeconfig.cache
+C:\Users\Mai\Lumin Software Projects\Full Stack Task 1\Full-Stack-Task\Backend\obj\Debug\net7.0\ref\Backend.dll
